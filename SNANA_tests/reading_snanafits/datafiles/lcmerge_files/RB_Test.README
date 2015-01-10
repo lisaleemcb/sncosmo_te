@@ -1,0 +1,36 @@
+SNLS lightcurves compiled by G.Miknaitis.
+From Astier 2005.
+
+Jan 28, 2008 RK:
+   Remove anomolous r-band flux at MJD=52873.4300 (SN 03D4at)
+   Was contributing 30 units of chi2 at Trest ~ 35 days.
+
+   Remove anamolous g-band flux at MJD = 53165.41 (SN 04D3df)
+   Was contributing 10 units of chi2 at Trest = 31 days.
+
+Apr 4, 2008, GM:
+   Set redshift errors to 0.001, to represent measurement error only.
+   Astier et al notes that these errors are actually 0.01 when z is
+   measured from SN spectra.  Will update if we receive information about
+   which SNLS SNe are affected.
+ 
+Tue Apr  8 06:51:06 CDT 2008
+   Copied from old version 'SNLS' using snana command: 
+   'copy_SNDATA_version.cmd  SNLS  SNLS_Ast06'
+
+Jul 16, 2008 RK:
+   Add the following to IGNORE file:
+   IGNORE:  04D3df  53182.360 z  (chi2=13 at Trest = 42 d)
+   (causing fitted PEAKMJD to stray)
+ 
+
+Jun 25, 2010:
+  Replace old-style verbose format with TERSE format
+  since there is no meta data (PSF,skynoise ...) to
+  include for the verbose format. See scripts in
+    /home/s1/rkessler/snana_debug/reformat/SNLS_Ast06-terse .
+  
+  Old-style format is archived here:
+       archive/SNLS_Ast06_2009-03-16.tar
+
+  Checked that new=old for SALT2 c,x0,x1,t0.

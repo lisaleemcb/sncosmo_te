@@ -1,0 +1,5 @@
+  &SNLCINP
+      SNTABLE_LIST = ''
+      VERSION_PHOTOMETRY = 'RB_Test'
+      VERSION_REFORMAT_FITS  = 'snana_fits'
+  &END
