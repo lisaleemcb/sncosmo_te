@@ -10,8 +10,11 @@ Procedure:
 ----------
 
 (using SNANA v10_38m)
+
 1. Added files in 1. to $SNDATA_ROOT/lcmerge 
+
 2. Added inputfile to current directory 
+
 3. run the code::
 
        > snana.exe inputfile
@@ -32,6 +35,7 @@ Input File for SNANA
 Actual curve files copied from SNANA/lcmerge
 #############################################
 These files were in $SNDATA_ROOT/lcmerge/SNLS_Ast06. 
+
 - SNLS_Ast06_03D1ax.dat
 - SNLS_Ast06_03D1aw.dat
 
